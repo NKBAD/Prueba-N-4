@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: flex;
+    text-align: center;
+    padding-bottom: 25px;
+    background-color: black;
+}
+
+nav a {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+#Games {
+    background-image: url(img/banner.jpg);
+    height: 670px;
+}
