@@ -9,6 +9,7 @@ nav {
     text-align: center;
     padding-bottom: 25px;
     background-color: black;
+    justify-content: center;
 }
 
 nav a {
@@ -21,4 +22,49 @@ nav a {
 #Games {
     background-image: url(img/banner.jpg);
     height: 670px;
+}
+
+#Games button {
+    border: none;
+    margin-top: 500px;
+    margin-left: 200px;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(0, 101, 168);
+    color: white;
+}
+
+#Games h1 {
+    color: white;
+    text-align: center;
+}
+
+.news h1 {
+    color: rgb(0, 136, 199);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.news img {
+    width: 380px;
+    height: 200px;
+}
+
+.img1 {
+    margin-top: 75px;
+    margin-left: 300px;
+}
+
+.img2 {
+    margin-left: 750px;
+    margin-top: -240px;
+}
+
+.img3 {
+    margin-left: 1200px;
+    margin-top: -240px;
+}
+
+.img4 {
+    margin-left: 300px;
+    margin-top: 75px;
 }
