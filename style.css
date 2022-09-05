@@ -4,24 +4,71 @@
 }
 
 nav {
-    display: flex;
-    flex-direction: flex;
-    text-align: center;
-    padding-bottom: 25px;
-    background-color: black;
-    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.6);
+    border-bottom: 1px solid #000;
 }
 
-nav a {
-    padding: 5px 12px;
+nav ul {
+    list-style: none;
+    float: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li a{
+    line-height: 80px;
+    color: #fff;
+    padding: 12px 30px;
     text-decoration: none;
+    font-size: 14px;
     font-weight: bold;
-    color: white;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover{
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 6px;
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+
+input.src{
+    padding: 9px 10px 9px 32px;
+    outline: none;
+    font-size: 18px;
+    border-radius: 15px;
+    color: #fff;
+    background: #000 url(img/search.png) no-repeat 9px center;
+    width: 60px;
+    transition: all .5s;
+}
+
+input.src:hover{
+    width: 180px;
+    background-color: #000;
+    border-color: #fff;
+    box-shadow: 0 0 5px #000;
 }
 
 #Games {
+    width: 100%;
+    height: 100vh;
     background-image: url(img/banner.jpg);
-    height: 670px;
+    background-size: cover;
+    background-position: center;
 }
 
 #Games button {
@@ -39,14 +86,15 @@ nav a {
     text-align: center;
 }
 
-.news h1 {
+#news h1 {
     color: rgb(0, 136, 199);
     font-family: 'Times New Roman', Times, serif;
 }
 
-.news img {
+#news img {
     width: 380px;
     height: 200px;
+    display: flex;
 }
 
 .img1 {
@@ -56,15 +104,36 @@ nav a {
 
 .img2 {
     margin-left: 750px;
-    margin-top: -240px;
+    margin-top: -228px;
 }
 
 .img3 {
     margin-left: 1200px;
-    margin-top: -240px;
+    margin-top: -228px;
 }
 
 .img4 {
     margin-left: 300px;
     margin-top: 75px;
+    width: 100px;
+}
+
+#esports {
+    height: 90vh;
+    background-image: linear-gradient(0deg,
+            rgba(53, 53, 53, 0.5),
+            rgba(73, 73, 73, 0.5)), url("img/footer5.jpeg");
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#esports h1 {
+    color: #000;
+    margin-left: 350px;
+    margin-top: 300px;
+}
+
+#esports h2 {
+    color: rgb(0, 136, 199);
 }
