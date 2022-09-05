@@ -1,6 +1,5 @@
-* {
-    margin: 0;
-    padding: 0;
+*{
+    box-sizing: border-box;
 }
 
 nav {
@@ -63,77 +62,283 @@ input.src:hover{
     box-shadow: 0 0 5px #000;
 }
 
-#Games {
-    width: 100%;
-    height: 100vh;
-    background-image: url(img/banner.jpg);
-    background-size: cover;
-    background-position: center;
+html{
+    scroll-behavior: smooth;
 }
 
-#Games button {
-    border: none;
-    margin-top: 500px;
-    margin-left: 200px;
-    width: 200px;
-    height: 40px;
-    background-color: rgb(0, 101, 168);
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+}
+
+h1{ font-size: 2.25em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+ul{ list-style: none;}
+li{ font-size: 1.25em;}
+
+
+ button{
+    padding: 10px;
+    font-size: 1em;
+    font-weight: bold;
     color: white;
+    background-color: rgb(0, 99, 192);
+    cursor: pointer;
+    border: #000000;
+ }
+
+ button:hover{
+    background-color: rgb(71, 97, 245)
 }
 
-#Games h1 {
+ 
+.container{
+    max-width: 800px;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#games{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 650px;
+    background-image: url("img/banner.jpg");
+}
+
+#games h1{
+    white-space: nowrap;
+    color: white;
+    margin-top: 290px;
+    margin-left: -620px;
+}
+
+#games p{
+    white-space: nowrap;
+    color: white;
+    margin-top: 370px;
+    margin-left: -370px;
+}
+
+.buttons{
+    margin-top: 500px;
+    margin-left: -640px;
+}
+
+.footers img {
+                width: 380px;
+                height: 200px;
+            }
+            
+            .footer1 {
+                margin-top: -200px;
+                margin-left: -750px;
+            }
+            
+            .footer2 {
+                margin-left: 100px;
+                margin-top: -270px;
+            }
+            
+            .footer3 {
+                margin-left: 950px;
+                margin-top: -272px;
+            }
+
+            .footer4 {
+                background-image: url(img/footer4.jpg);
+                width: 543px;
+                height: 307px;
+                margin-top: 100px;
+                margin-left: 122px;
+            }
+
+            .footer4 h2 {
+                margin-top: 100px;
+                margin-left: 580px;
+                white-space: nowrap;
+                color: rgb(0, 145, 230);
+                font-size: 2em;
+            }
+
+            .footer4 h3 {
+                margin-top: -20px;
+                margin-left: 580px;
+                white-space: nowrap;
+                color: rgb(0, 0, 0);
+                font-size: 1.15em;
+            }
+
+            .parrafo4 {
+                margin-top: -240px;
+                margin-left: 702px;
+                margin-right: 200px;
+                text-align: left;
+                color: rgb(0, 0, 0);
+                font-size: 1em;
+            }
+
+            .button-footer{
+                margin-top: -2px;
+                margin-left: 130px;
+            }
+
+#news h1{
+    white-space: nowrap;
+    color: rgb(0, 145, 230);
+    font-size: 1.50em;
+}
+
+#news .container{
+    text-align: center;
+    padding: 250px 12px;
+}
+
+.tres-container{
+    box-shadow: 10px  black;
+    text-shadow: 10px black;
+}
+
+.title1 h1 {
+                margin-top: 100px;
+                margin-left: -900px;
+                white-space: nowrap;
+                color: rgb(0, 145, 230);
+                font-size: 1.75em;
+            }
+
+            .title2 h3{
+                margin-top: -20px;
+                margin-left: -870px;
+                white-space: nowrap;
+                font-size: 1.20em;
+                color: rgb(255, 255, 255);
+            }
+
+            .title3 p{
+                margin-top: 15px;
+                margin-left: -214px;
+                margin-right: 450px;
+                text-align: left;
+                font-size: 1.20em;
+                color: rgb(255, 255, 255);
+            }
+
+            .buttons2{
+                margin-top: 30px;
+                margin-left: -730px;
+                
+            }
+
+            .caratulas{
+                margin-top: -250px;
+                margin-left: 520px;
+            }
+
+#esports{
+    background-image: url(img/footer5.png);
+    height: 550px;
     color: white;
     text-align: center;
 }
 
-#news h1 {
-    color: rgb(0, 136, 199);
-    font-family: 'Times New Roman', Times, serif;
+#esports .container{
+    padding: 60px 12px;
 }
 
-#news img {
-    width: 380px;
-    height: 200px;
+#community{
+    background-color: rgb(255, 255, 255);
+    color: white;
+    text-align: center;
+    height: 65vh;
+}
+
+#community .container{
+    padding: 200px 12px;
+}
+
+#community img {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+}
+
+footer{
+    background-color: rgb(37, 37, 37);
+    height: 7vh;
+}
+
+footer .container{
     display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
-.img1 {
-    margin-top: 75px;
-    margin-left: 300px;
-}
+@media (min-width: 850px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
 
-.img2 {
-    margin-left: 750px;
-    margin-top: -228px;
-}
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    #news {
+        height: 850px;
+        }
 
-.img3 {
-    margin-left: 1200px;
-    margin-top: -228px;
-}
 
-.img4 {
-    margin-left: 300px;
-    margin-top: 75px;
-    width: 100px;
-}
+    #news .container{
+        display: flex;
+        justify-content: space-evenly;
+    }
 
-#esports {
-    height: 90vh;
-    background-image: linear-gradient(0deg,
-            rgba(53, 53, 53, 0.5),
-            rgba(73, 73, 73, 0.5)), url("img/footer5.jpeg");
-    background-size: cover;
-    background-position: center center;
-    font-family: 'Times New Roman', Times, serif;
-}
+    #esports .programas{
+        display: flex;
+        justify-content: center;
+    }
 
-#esports h1 {
-    color: #000;
-    margin-left: 350px;
-    margin-top: 300px;
-}
 
-#esports h2 {
-    color: rgb(0, 136, 199);
+    footer p{
+        color: rgb(252, 252, 252);
+        cursor: pointer;
+    }
+    
+    footer .container{
+        justify-content: flex-end;
+
+    }
+
+    .idioma img{
+        width: 40px;
+        margin-left: 350px;
+        margin-top: 15px;
+
+    }
+
+    .idioma p{
+        margin-left: 400px;
+        margin-top: -45px;
+    }
+
+    .ultimo p{
+        display: inline;
+        padding: 30px;
+        margin-left: 1000px;
+        margin-top: -35px;
+    }
+
+    .ultimo img{
+        width: 150px;
+        margin-left: 350px;
+        margin-top: -900px;
+    }
+
 }
