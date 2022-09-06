@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -22,7 +22,7 @@ nav ul {
     display: flex;
 }
 
-nav ul li a{
+nav ul li a {
     line-height: 80px;
     color: #fff;
     padding: 12px 30px;
@@ -32,7 +32,7 @@ nav ul li a{
     text-transform: uppercase;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     background: rgba(0, 0, 0, 0.7);
     border-radius: 6px;
 }
@@ -43,8 +43,7 @@ nav ul li a:hover{
     left: 80%;
     transform: translate(-50%, -50%);
 }
-
-input.src{
+input.src {
     padding: 9px 10px 9px 32px;
     outline: none;
     font-size: 18px;
@@ -55,30 +54,44 @@ input.src{
     transition: all .5s;
 }
 
-input.src:hover{
+input.src:hover {
     width: 180px;
     background-color: #000;
     border-color: #fff;
     box-shadow: 0 0 5px #000;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
 }
 
-h1{ font-size: 2.25em;}
-h2{ font-size: 2.7em;}
-h3{ font-size: 2em;}
-ul{ list-style: none;}
-li{ font-size: 1.25em;}
+h1 {
+    font-size: 2.25em;
+}
+
+h2 {
+    font-size: 2.7em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 1.25em;
+}
 
 
- button{
+button {
     padding: 10px;
     font-size: 1em;
     font-weight: bold;
@@ -86,24 +99,24 @@ li{ font-size: 1.25em;}
     background-color: rgb(0, 99, 192);
     cursor: pointer;
     border: #000000;
- }
+}
 
- button:hover{
+button:hover {
     background-color: rgb(71, 97, 245)
 }
 
- 
-.container{
+
+.container {
     max-width: 800px;
     margin: auto;
 }
 
-a{
+a {
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
 
-#games{
+#games {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -111,231 +124,214 @@ a{
     background-image: url("img/banner.jpg");
 }
 
-#games h1{
+#games h1 {
     white-space: nowrap;
     color: white;
     margin-top: 290px;
     margin-left: -620px;
 }
 
-#games p{
+#games p {
     white-space: nowrap;
     color: white;
     margin-top: 370px;
     margin-left: -370px;
 }
 
-.buttons{
+.buttons {
     margin-top: 500px;
     margin-left: -640px;
 }
 
 .footers img {
-                width: 380px;
-                height: 200px;
-            }
-            
-            .footer1 {
-                margin-top: -200px;
-                margin-left: -750px;
-            }
-            
-            .footer2 {
-                margin-left: 100px;
-                margin-top: -270px;
-            }
-            
-            .footer3 {
-                margin-left: 950px;
-                margin-top: -272px;
-            }
+    width: 380px;
+    height: 200px;
+}
 
-            .footer4 {
-                background-image: url(img/footer4.jpg);
-                width: 543px;
-                height: 307px;
-                margin-top: 100px;
-                margin-left: 122px;
-            }
+.footer1 {
+    margin-top: -200px;
+    margin-left: -750px;
+}
 
-            .footer4 h2 {
-                margin-top: 100px;
-                margin-left: 580px;
-                white-space: nowrap;
-                color: rgb(0, 145, 230);
-                font-size: 2em;
-            }
+.footer2 {
+    margin-left: 100px;
+    margin-top: -270px;
+}
 
-            .footer4 h3 {
-                margin-top: -20px;
-                margin-left: 580px;
-                white-space: nowrap;
-                color: rgb(0, 0, 0);
-                font-size: 1.15em;
-            }
+.footer3 {
+    margin-left: 950px;
+    margin-top: -272px;
+}
 
-            .parrafo4 {
-                margin-top: -240px;
-                margin-left: 702px;
-                margin-right: 200px;
-                text-align: left;
-                color: rgb(0, 0, 0);
-                font-size: 1em;
-            }
+.footer4 {
+    background-image: url(img/footer4.jpg);
+    width: 543px;
+    height: 307px;
+    margin-top: 100px;
+    margin-left: 122px;
+}
 
-            .button-footer{
-                margin-top: -2px;
-                margin-left: 130px;
-            }
+.footer4 h2 {
+    margin-top: 100px;
+    margin-left: 580px;
+    white-space: nowrap;
+    color: rgb(0, 145, 230);
+    font-size: 2em;
+}
 
-#news h1{
+.footer4 h3 {
+    margin-top: -20px;
+    margin-left: 580px;
+    white-space: nowrap;
+    color: rgb(0, 0, 0);
+    font-size: 1.15em;
+}
+
+.parrafo4 {
+    margin-top: -240px;
+    margin-left: 702px;
+    margin-right: 200px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+}
+
+.button-footer {
+    margin-top: -2px;
+    margin-left: 130px;
+}
+
+#news h1 {
     white-space: nowrap;
     color: rgb(0, 145, 230);
     font-size: 1.50em;
 }
 
-#news .container{
+#news .container {
     text-align: center;
     padding: 250px 12px;
 }
 
-.tres-container{
-    box-shadow: 10px  black;
+.tres-container {
+    box-shadow: 10px black;
     text-shadow: 10px black;
 }
 
 .title1 h1 {
-                margin-top: 100px;
-                margin-left: -900px;
-                white-space: nowrap;
-                color: rgb(0, 145, 230);
-                font-size: 1.75em;
-            }
+    margin-top: 100px;
+    margin-left: -900px;
+    white-space: nowrap;
+    color: rgb(0, 145, 230);
+    font-size: 1.75em;
+}
 
-            .title2 h3{
-                margin-top: -20px;
-                margin-left: -870px;
-                white-space: nowrap;
-                font-size: 1.20em;
-                color: rgb(255, 255, 255);
-            }
+.title2 h3 {
+    margin-top: -20px;
+    margin-left: -870px;
+    white-space: nowrap;
+    font-size: 1.20em;
+    color: rgb(255, 255, 255);
+}
 
-            .title3 p{
-                margin-top: 15px;
-                margin-left: -214px;
-                margin-right: 450px;
-                text-align: left;
-                font-size: 1.20em;
-                color: rgb(255, 255, 255);
-            }
+.title3 p {
+    margin-top: 15px;
+    margin-left: -214px;
+    margin-right: 450px;
+    text-align: left;
+    font-size: 1.20em;
+    color: rgb(255, 255, 255);
+}
 
-            .buttons2{
-                margin-top: 30px;
-                margin-left: -730px;
-                
-            }
+.buttons2 {
+    margin-top: 30px;
+    margin-left: -730px;
 
-            .caratulas{
-                margin-top: -250px;
-                margin-left: 520px;
-            }
+}
 
-#esports{
-    background-image: url(img/footer5.jpg);
+.caratulas {
+    margin-top: -250px;
+    margin-left: 520px;
+}
+
+#esports {
+    background-image: url(img/footer5.webp);
     height: 550px;
     color: white;
     text-align: center;
 }
 
-#esports .container{
+#esports .container {
     padding: 60px 12px;
 }
 
-#community{
-    background-color: rgb(255, 255, 255);
-    color: white;
-    text-align: center;
-    height: 65vh;
-}
-
-#community .container{
-    padding: 200px 12px;
-}
-
-#community img {
-    width: 300px;
-    height: 300px;
-    position: absolute;
-}
-
-footer{
+footer {
     background-color: rgb(37, 37, 37);
     height: 7vh;
 }
 
-footer .container{
+footer .container {
     display: flex;
     justify-content: center;
     align-items: flex-end;
 }
 
-@media (min-width: 850px){
-    header{
+@media (min-width: 850px) {
+    header {
         position: fixed;
         width: 100%;
     }
 
-    header .container{
+    header .container {
         flex-direction: row;
         justify-content: space-between;
     }
-    
+
     #news {
         height: 850px;
-        }
+    }
 
 
-    #news .container{
+    #news .container {
         display: flex;
         justify-content: space-evenly;
     }
 
-    #esports .programas{
+    #esports .programas {
         display: flex;
         justify-content: center;
     }
 
 
-    footer p{
+    footer p {
         color: rgb(252, 252, 252);
         cursor: pointer;
     }
-    
-    footer .container{
+
+    footer .container {
         justify-content: flex-end;
 
     }
 
-    .idioma img{
+    .idioma img {
         width: 40px;
         margin-left: 350px;
         margin-top: 15px;
 
     }
 
-    .idioma p{
+    .idioma p {
         margin-left: 400px;
         margin-top: -45px;
     }
 
-    .ultimo p{
+    .ultimo p {
         display: inline;
         padding: 30px;
         margin-left: 1000px;
         margin-top: -35px;
     }
 
-    .ultimo img{
+    .ultimo img {
         width: 150px;
         margin-left: 350px;
         margin-top: -900px;
