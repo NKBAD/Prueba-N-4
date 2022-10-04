@@ -264,6 +264,51 @@ a {
     padding: 60px 12px;
 }
 
+.tres-container2 {
+    box-shadow: 10px black;
+    text-shadow: 10px black;
+}
+
+.title11 h1 {
+    margin-top: 100px;
+    margin-left: -900px;
+    white-space: nowrap;
+    color: rgb(0, 145, 230);
+    font-size: 1.75em;
+}
+
+.title22 h3 {
+    margin-top: -20px;
+    margin-left: -870px;
+    white-space: nowrap;
+    font-size: 1.20em;
+    color: rgb(255, 255, 255);
+}
+
+.title33 p {
+    margin-top: 15px;
+    margin-left: -214px;
+    margin-right: 450px;
+    text-align: left;
+    font-size: 1.20em;
+    color: rgb(255, 255, 255);
+}
+
+.buttons22 {
+    margin-top: 30px;
+    margin-left: -730px;
+
+}
+
+.expo {
+    margin-top: -250px;
+    margin-left: 520px;
+}
+
+#community .container {
+    padding: 60px 12px;
+}
+
 footer {
     background-color: rgb(37, 37, 37);
     height: 7vh;
